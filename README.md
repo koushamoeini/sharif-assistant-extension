@@ -133,19 +133,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Kousha Moeini**
 - GitHub: [@koushamoeini](https://github.com/koushamoeini)
+- Email: koushamoeini@gmail.com
+
 
 ## 🙏 Acknowledgments
 
 - Built as a project for Sharif University of Technology
 - Inspired by the need for a Persian-friendly productivity tool
 - Thanks to the Chrome Extensions community
-
-## 📮 Contact & Support
-
-If you have any questions, suggestions, or issues:
-- Open an issue on [GitHub](https://github.com/koushamoeini/sharif-assistant-extension/issues)
-- Contact: [GitHub Profile](https://github.com/koushamoeini)
-
----
-
-Made with ❤️ for Persian-speaking Chrome users
