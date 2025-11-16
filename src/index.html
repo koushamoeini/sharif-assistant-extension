@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دستیار</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>دستیار</h1>
+    <button id="theme-toggle" style="position: absolute; left: 20px; top: 15px; background: none; border: none; font-size: 1.5rem; cursor: pointer; color: var(--background-color);" aria-label="تغییر تم">☀️</button>
+</header>
+
+<main class="main-content">
+
+    <section id="calendar-area" class="panel">
+        <h3><span id="calendar-type-title">تقویم میلادی</span></h3>
+
+        <div style="text-align: center; margin-bottom: 15px;">
+            <button id="toggle-calendar-button" class="add-button" style="width: auto;">تغییر به شمسی</button>
+        </div>
+
+        <div class="calendar-header">
+            <button id="prev-month">ماه قبل</button>
+            <span id="month-year-display">ماه و سال</span>
+            <button id="next-month">ماه بعد</button>
+            <button id="today-button">امروز</button>
+        </div>
+        <div id="calendar-grid" class="calendar-grid">
+
+        </div>
+        <button id="show-all-daily-notes" class="add-button" style="margin-top: 15px;">نمایش همه یادداشت‌های تقویم</button>
+    </section>
+
+    <section id="main-center-area">
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="جستجو در گوگل...">
+            <button id="search-button">جستجو</button>
+        </div>
+
+        <div class="quick-access-links panel">
+            <h3>دسترسی سریع</h3>
+            <div id="quick-access-grid" class="quick-access-grid">
+
+            </div>
+            <button id="add-link-button" class="add-button">+</button>
+        </div>
+    </section>
+
+    <section id="notes-area" class="panel">
+        <h3>یادداشت‌های من</h3>
+        <div id="general-notes-management">
+            <h4>افزودن یادداشت عمومی</h4>
+            <input type="text" id="new-note-title" placeholder="عنوان یادداشت جدید">
+            <textarea id="new-note-text" placeholder="متن یادداشت..."></textarea>
+            <button id="add-general-note" class="add-button">افزودن</button>
+        </div>
+
+        <h4>لیست یادداشت‌ها</h4>
+        <div id="general-notes-list">
+
+        </div>
+    </section>
+
+</main>
+
+
+<div id="addLinkModal" class="modal">
+    <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h3>افزودن لینک دسترسی سریع</h3>
+        <form id="add-link-form">
+            <input type="text" id="link-title" placeholder="عنوان (مثلاً گوگل)" required>
+            <input type="url" id="link-url" placeholder="آدرس (مثلاً https://google.com)" required>
+            <input type="url" id="link-icon" placeholder="لینک آیکن (اختیاری)">
+            <button type="submit" class="add-button">ذخیره لینک</button>
+        </form>
+    </div>
+</div>
+
+<div id="dailyNoteModal" class="modal">
+    <div class="modal-content" style="max-width: 600px;">
+        <span class="close-button" id="closeDailyNoteModal">&times;</span>
+        <h3 id="dailyNoteDateTitle">یادداشت‌های روز</h3>
+
+        <div id="daily-notes-list-view">
+
+        </div>
+
+        <h4 style="margin-top: 20px;">افزودن یادداشت جدید</h4>
+        <form id="add-daily-note-form">
+            <input type="text" id="daily-note-title" placeholder="عنوان یادداشت">
+            <textarea id="daily-note-text" placeholder="متن یادداشت..."></textarea>
+            <button type="submit" class="add-button" id="add-daily-note-button">ذخیره</button>
+        </form>
+    </div>
+</div>
+
+<div id="editGeneralNoteModal" class="modal">
+    <div class="modal-content">
+        <span class="close-button" id="closeEditGeneralNoteModal">&times;</span>
+        <h3>ویرایش یادداشت عمومی</h3>
+        <form id="edit-general-note-form">
+            <input type="hidden" id="edit-note-id">
+            <input type="text" id="edit-note-title" placeholder="عنوان یادداشت">
+            <textarea id="edit-note-text" placeholder="متن یادداشت..."></textarea>
+            <button type="submit" class="add-button">ذخیره تغییرات</button>
+        </form>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
