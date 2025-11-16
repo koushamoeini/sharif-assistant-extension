@@ -121,38 +121,9 @@ The extension uses Chrome's Storage API to persist data. No additional configura
 - **Chrome URL Override**: Replaces new tab page
 - **Manifest Version**: 3 (Latest Chrome extension standard)
 
-## 📸 Screenshots
+## 📸 Screenshot
 
-### Light Mode
-![Light Mode Screenshot](docs/screenshots/light-mode.png)
-
-### Dark Mode
-![Dark Mode Screenshot](docs/screenshots/dark-mode.png)
-
-### Calendar View
-![Calendar View](docs/screenshots/calendar.png)
-
-*Note: Add actual screenshots to the `docs/screenshots/` directory*
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'feat: add some amazing feature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Commit Convention
-This project follows [Conventional Commits](https://www.conventionalcommits.org/):
-- `feat:` New features
-- `fix:` Bug fixes
-- `docs:` Documentation changes
-- `style:` Code style changes (formatting, etc.)
-- `refactor:` Code refactoring
-- `test:` Adding tests
-- `chore:` Maintenance tasks
+![Sharif Assistant Extension](docs/screenshots/extension-preview.png)
 
 ## 📄 License
 
