@@ -132,12 +132,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👤 Author
 
 **Kousha Moeini**
-- GitHub: [@koushamoeini](https://github.com/koushamoeini)
 - Email: koushamoeini@gmail.com
+- GitHub: [@koushamoeini](https://github.com/koushamoeini)
 
-
-## 🙏 Acknowledgments
-
-- Built as a project for Sharif University of Technology
-- Inspired by the need for a Persian-friendly productivity tool
-- Thanks to the Chrome Extensions community
+---
