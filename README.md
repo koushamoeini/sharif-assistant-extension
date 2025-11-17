@@ -38,6 +38,10 @@ A powerful Persian/Farsi Chrome extension that serves as your personal productiv
 - Keyboard shortcut support (Enter key)
 - Clean and distraction-free interface
 
+## 📸 Screenshot
+
+![Sharif Assistant Extension](docs/screenshots/extension-preview.png)
+
 ## 🛠️ Technologies Used
 
 - **HTML5**: Semantic markup structure
@@ -120,10 +124,6 @@ The extension uses Chrome's Storage API to persist data. No additional configura
 - **Permissions**: `storage` - Required for saving user data
 - **Chrome URL Override**: Replaces new tab page
 - **Manifest Version**: 3 (Latest Chrome extension standard)
-
-## 📸 Screenshot
-
-![Sharif Assistant Extension](docs/screenshots/extension-preview.png)
 
 ## 📄 License
 
